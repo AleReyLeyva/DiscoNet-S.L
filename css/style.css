@@ -130,18 +130,39 @@ main {
   width: 31%;
 }
 
-.tienda-app {
-  font-family: "Roboto Condensed", sans-serif;
-  width: 30%;
-  margin: 25px auto;
+.descarga {
+  font-family: 'Barlow', sans-serif;
+  width: 23%;
+  margin: 15px auto 30px auto;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-
+  justify-content: space-between;
+  padding: 0 40px;
+  border: 2px solid #000000;
+  background-image: linear-gradient(to bottom, #8241f9, #4e277b);
+  border-color: #150a27;
+  border-top-color: rgb(21, 10, 39);
+  border-right-color: rgb(21, 10, 39);
+  border-bottom-color: rgb(21, 10, 39);
+  border-left-color: rgb(21, 10, 39);
+  color: #fff;
+  border-radius: 6px;
 }
 
-.tienda-app img{
+.botones {
+  display: flex;
   width: 50%;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.boton {
+  margin: 0 10px;
+}
+
+.boton img{
+  width: 100%;
+  margin: 0 10px;
 }
 
 .container-video {
