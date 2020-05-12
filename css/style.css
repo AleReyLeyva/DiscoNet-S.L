@@ -132,7 +132,7 @@ main {
 
 .descarga {
   font-family: 'Barlow', sans-serif;
-  width: 23%;
+  width: 25%;
   margin: 15px auto 30px auto;
   display: flex;
   align-items: center;
@@ -151,7 +151,7 @@ main {
 
 .botones {
   display: flex;
-  width: 50%;
+  width: 48%;
   align-items: center;
   margin-left: 15px;
 }
