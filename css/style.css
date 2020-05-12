@@ -23,7 +23,6 @@ p {
 
 .container {
   width: 100%;
-  margin: 0 auto;
 }
 
 header {
@@ -84,7 +83,7 @@ main {
 
 .imagen {
   width: 90%;
-  margin: 20px auto;
+  margin: 0 auto 30px auto;
 }
 
 .logos {
