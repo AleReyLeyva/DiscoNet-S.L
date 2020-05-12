@@ -1,0 +1,128 @@
+body {
+  font-size: 11pt;
+  line-height: 1.5;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  background: #1a2980;
+  background: -webkit-linear-gradient(to right, #26d0ce, #1a2980);
+  background: linear-gradient(to right, #26d0ce, #1a2980);
+  color: white;
+}
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgb(0, 96, 206);
+  border-bottom: 6px solid #00a3cc;
+  display: flex;
+  min-height: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.title {
+  letter-spacing: 1.5px;
+  font-size: 3rem;
+  font-family: "Jost", sans-serif;
+  margin-left: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+.nav-links li {
+  margin: 0 1.5rem;
+}
+.nav-links a {
+  font-size: 1rem;
+  font-family: "Jost", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.presentacion {
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 5px 0 10px 0;
+}
+.presentacion h1 {
+  font-size: 3rem;
+}
+.presentacion h2 {
+  font-size: 1.25rem;
+}
+
+.imagen {
+  margin-top: 40px;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  text-align: center;
+  width: 30%;
+  margin: 0 30px 0 30px;
+}
+.logo-app {
+  width: 60%;
+}
+.logo-empresa {
+  width: 100%;
+}
+
+.producto {
+  text-align: center;
+}
+
+.box-apps {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app {
+  margin: 0 20px;
+  width: 33%;
+}
+
+.container-video {
+  text-align: center;
+}
+.container-video video {
+  width: 50%;
+  border: 3px solid white;
+}
+
+main dt {
+  text-align: center;
+}
