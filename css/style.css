@@ -23,11 +23,7 @@ h3 {
 
 p {
   font-size: 1.25rem;
-  font-family: 'Lato', sans-serif;
-}
-
-.container {
-  border: 2px solid red;
+  font-family: "Lato", sans-serif;
 }
 
 header {
@@ -38,8 +34,7 @@ header {
   align-items: center;
 }
 
-
-.title h1{
+.title h1 {
   letter-spacing: 1.5px;
   font-size: 3rem;
   font-family: "Jost", sans-serif;
@@ -115,7 +110,7 @@ header {
   background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
 }
 
-.aplicacion h2{
+.aplicacion h2 {
   font-size: 2rem;
   margin: 0;
   padding: 0;
@@ -216,5 +211,4 @@ footer {
     width: 90%;
     margin: 0;
   }
-
 }
