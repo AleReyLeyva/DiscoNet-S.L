@@ -1,11 +1,12 @@
 body {
-  font-size: 2rem;
+  font-size: 16px;
   line-height: 1.5;
   font-family: "Roboto Condensed", sans-serif;
   font-family: "Lato", sans-serif;
   padding: 0;
   margin: 0;
 }
+
 h1 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 2.8rem;
@@ -17,17 +18,9 @@ h2 {
   font-size: 2rem;
 }
 
-h3 {
-  font-size: 1.75rem;
-}
-
 p {
   font-size: 1.25rem;
   font-family: 'Lato', sans-serif;
-}
-
-.container {
-  border: 2px solid red;
 }
 
 header {
@@ -38,8 +31,7 @@ header {
   align-items: center;
 }
 
-
-.title h1{
+.title h1 {
   letter-spacing: 1.5px;
   font-size: 3rem;
   font-family: "Jost", sans-serif;
@@ -52,9 +44,11 @@ header {
   display: flex;
   padding: 0;
 }
+
 .nav-links li {
   margin: 0 1.5rem;
 }
+
 .nav-links a {
   font-size: 1rem;
   font-family: "Jost", sans-serif;
@@ -77,6 +71,7 @@ header {
 .presentacion h1 {
   font-size: 3rem;
 }
+
 .presentacion h2 {
   font-size: 1.25rem;
 }
@@ -92,14 +87,17 @@ header {
   display: flex;
   justify-content: center;
 }
+
 .logo {
   text-align: center;
   width: 50%;
   margin: 0 30px;
 }
+
 .logo-app {
   width: 60%;
 }
+
 .logo-empresa {
   width: 100%;
 }
@@ -115,7 +113,7 @@ header {
   background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
 }
 
-.aplicacion h2{
+.aplicacion h2 {
   font-size: 2rem;
   margin: 0;
   padding: 0;
@@ -177,6 +175,7 @@ header {
 .container-video {
   text-align: center;
 }
+
 .container-video video {
   width: 70%;
 }
@@ -188,10 +187,12 @@ main dt {
 footer {
   font-family: "Open Sans", sans-serif;
   text-align: center;
+  font-size: 1rem;
   margin-top: 45px;
   padding: 5px 0 10px 0;
   background-color: rgb(0, 96, 206);
   color: white;
+  border-top: 6px solid #00a3cc;
 }
 
 @media screen and (max-width: 650px) {
@@ -216,5 +217,4 @@ footer {
     width: 90%;
     margin: 0;
   }
-
 }
