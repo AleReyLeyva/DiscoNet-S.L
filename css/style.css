@@ -20,7 +20,11 @@ h2 {
 
 p {
   font-size: 1.25rem;
+<<<<<<< HEAD
   font-family: 'Lato', sans-serif;
+=======
+  font-family: "Lato", sans-serif;
+>>>>>>> 4a2cb1fe4424f5df865fe53b65c9ac9421e61f67
 }
 
 header {
@@ -217,4 +221,8 @@ footer {
     width: 90%;
     margin: 0;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4a2cb1fe4424f5df865fe53b65c9ac9421e61f67
