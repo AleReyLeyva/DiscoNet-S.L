@@ -2,7 +2,7 @@
 body {
   font-size: 16px;
   background: white;
-  color: white;
+  color: #000000;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -11,6 +11,7 @@ body {
 header {
   background: rgb(0, 96, 206);
   border-bottom: 6px solid #00a3cc;
+  color: white;
 }
 
 .container-header {
@@ -87,6 +88,7 @@ nav {
   background: -webkit-linear-gradient(to right, #26d0ce, #1a2980);
   background: linear-gradient(to right, #26d0ce, #1a2980);
   border-bottom: 6px solid #00a3cc;
+  color: white;
 }
 
 /* Imagen */
@@ -118,6 +120,7 @@ nav {
 
 /* Aplicacion */
 .aplicacion {
+  color: white;
   border-top: 6px solid #00a3cc;
   border-bottom: 6px solid #00a3cc;
   background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
@@ -206,7 +209,7 @@ footer {
 }
 
 /* Media Querys */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
   .container-header {
     width: 90%;
     display: flex;
@@ -226,6 +229,17 @@ footer {
     text-align: center;
   }
 
+  .nav-bar {
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+
+  .nav-link {
+    padding-bottom: 25px;
+  }
+
   .presentacion {
     padding: 30px 0;
   }
@@ -233,13 +247,6 @@ footer {
   .presentacion h1, h2 {
     width: 90%;
     margin: 0 auto;
-  }
-
-  .nav-bar {
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
-    align-items: center;
   }
 
   .imagen {
@@ -278,7 +285,7 @@ footer {
   }
 
   .ya-disponible {
-    width: 40%;
+    width: 46%;
   }
 
   .boton-descarga p {
@@ -287,8 +294,10 @@ footer {
   }
 
   .botones {
-    width: 47%;
+    width: 44%;
   }
+
+    {}
 
   .container-video {
     width: 100%;
