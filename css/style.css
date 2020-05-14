@@ -1,7 +1,7 @@
 /* Cuerpo de la web */
 body {
   font-size: 16px;
-  background: white;
+  background-color: #e2f3f5;
   color: #000000;
   line-height: 1.5;
   margin: 0;
@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background: rgb(0, 96, 206);
+  background: #3d5af1;
   border-bottom: 6px solid #00a3cc;
   color: white;
 }
@@ -84,9 +84,7 @@ nav {
   width: 100%;
   padding: 25px;
   text-align: center;
-  background: #1a2980;
-  background: -webkit-linear-gradient(to right, #26d0ce, #1a2980);
-  background: linear-gradient(to right, #26d0ce, #1a2980);
+  background: linear-gradient(to right, rgb(55, 59, 68), rgb(66, 134, 244));
   border-bottom: 6px solid #00a3cc;
   color: white;
 }
@@ -115,7 +113,7 @@ nav {
 }
 
 .logo-empresa {
-  width: 55%;
+  width: 62%;
 }
 
 /* Aplicacion */
@@ -123,9 +121,9 @@ nav {
   color: white;
   border-top: 6px solid #00a3cc;
   border-bottom: 6px solid #00a3cc;
-  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  background: linear-gradient(to right, rgb(55, 59, 68), rgb(66, 134, 244));
   width: 100%;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
   text-align: center;
   margin: 30px auto;
 }
@@ -135,6 +133,7 @@ nav {
   justify-content: space-around;
   display: flex;
   margin: 0 auto;
+  padding-bottom: 15px;
   align-items: center;
 }
 
@@ -152,10 +151,7 @@ nav {
   border: 2px solid #000000;
   background-image: linear-gradient(to bottom, #8241f9, #4e277b);
   border-color: #150a27;
-  border-top-color: rgb(21, 10, 39);
-  border-right-color: rgb(21, 10, 39);
-  border-bottom-color: rgb(21, 10, 39);
-  border-left-color: rgb(21, 10, 39);
+  border-color: rgb(21, 10, 39);
   color: #fff;
   border-radius: 6px;
 }
