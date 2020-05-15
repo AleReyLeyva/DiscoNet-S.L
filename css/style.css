@@ -77,11 +77,18 @@ p {
 }
 
 #cartel {
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
 .app h2 {
   margin: 20px 0;
+}
+
+hr {
+  width: 70%;
+  margin: 20px auto;
+  height: 3px;
+  background-color: white;
 }
 
 /* Header */
@@ -187,6 +194,7 @@ nav {
 
 .app {
   width: 30%;
+  display: inline-block;
 }
 
 .app h4 {
