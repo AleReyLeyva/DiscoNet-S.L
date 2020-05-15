@@ -1,67 +1,18 @@
-Graduado en primaria en CEIP Eduardo Ocón y en Secundaria y
-Bachillerato (Tecnológico) en el instituto IES Huelin
-con nota media 10 (matrícula de honor) . Nivel C1 en Inglés
-examinado por Cambridge. Nivel A1 no acreditado.. Ganador del Premio
-Ciudad de Málaga por este resultado. Realizado el curso de 4º de la
-ESO en EEUU, en el estado de Louisiana en el Tioga High School.
-Concursante del programa televisivo Pasapalabra en el año 2012 y
-ganador de un lote de 6 ordenadores e impresoras para mi centro de
-enseñanza. Imparte como profesor particular para alumnos de primero
-y segundo de bachillerato. Persona con carácter y perfeccionista,
-con alma de líder para junto a sus compañeros llevar este proyecto
-hacia delante. Encargado de la dirección comercial de la empresa,
-cuyo objetivo es contactar con las dispuestas discotecas y hacer
-publicidad de nuestra aplicación para que llega al mayor número de
-clientes para que disfruten de nuestras prestaciones.
-
-Tiene como objetivo sacarse Alejandro Rey Leyva: En cuanto a la
-formación, se gradúa en Primaria y Secundaria en el Platero Green
-School y posteriormente en Bachillerato (Ciencias Biosanitarias) en
-el colegio San Estanislao de Kostka, con una nota media de 9,8.
-Participa en la fase local de la Olimpiada Matemática y Química
-Española durante el curso 2018/2019. Actualmente estudia primer año
-del Doble Grado de Matemáticas e Ingeniería Informática en la
-Universidad de Málaga, con una nota de admisión de 13,4 en la PEVAU.
-Por otro lado, carece de gran experiencia profesional ya que dedica
-la mayoría de su tiempo a los estudios, sin embargo, cuando puede
-compagina sus estudios universitarios con clases particulares tanto
-a alumnos de Secundaria como de Bachillerato. Cabe destacar que
-recibe la Beca a la Excelencia para la Inmersión Lingüística en el
-curso 2019/2020, que consiste en un curso de inmersión lingüística,
-durante el verano de 2020, en una universidad de Estados Unidos. Sí
-comentamos sus rasgos de personalidad, podemos destacar que es una
-persona muy perfeccionista, que busca siempre lo mejor para el
-grupo, y con una gran capacidad de liderazgo, ya que tiene
-experiencia en este aspecto al haber formado parte del Consejo
-Escolar en Secundaria y también delegado de clase durante el curso
-de 2º Bachillerato. El grado de implicación/responsabilidad será muy
-alto, ya que se trata de una persona muy aplicada y que se esfuerza
-lo máximo en todo lo que hace, sin embargo, al ser inicialmente un
-proyecto pequeño, acompañado de que se encuentra estudiando en la
-universidad, la dedicación no será del todo exclusiva, por lo que se
-compaginaría con sus estudios universitarios.
-
-Graduado en Secundaria en el IES Manuel Alcántara y Bachillerato
-(Ciencias) con matrícula de honor en el IES Jesús Marín. Ganador de
-las Olimpiadas Matemáticas Thales, ganador del concurso matemático
-de otoño 2018, bicampeón provincial de Málaga de baloncesto.
-Actualmente alumno de la UMA cursando Primero del Doble Grado en
-Matemáticas e Ingeniería Informática. Receptor de la Beca USA de
-Unicaja. Autor de la mascota de la biblioteca del CEIP Pablo Ruiz
-Picasso. Nivel C1 en Inglés no acreditado y Nivel A2 en Francés no
-acreditado
-
-Nacido en Málaga el 15 de Diciembre de 2001. Estudios: Graduado en
-Secundaria y Bachillerato en el Colegio San Estanislao de Kostka,
-con nota media de 9.13. Actualmente estudiante del Doble Grado de
-Matemática e Ingeniería Informática. Otras formaciones: Formación
-básica de programación, de electrónica y de diseño gráfico con 14
-años. Personalidad: Extrovertido, con gran sentido del humor. Gran
-capacidad de liderazgo, no significando que trate de imponer mi
-opinión en un grupo sino como una figura que consigue unir al
-equipo. Además muy ingenioso y con la capacidad de llevar algo
-impensable a la realidad. Idiomas: Nativo Español y certificado en
-Inglés con un B2 por Cambridge. Además nivel A2 de Francés no
-acreditado con un estudio de 5 años y A1 de Catalán no acreditado.
-Hobbies: Actor y monologuista. Representación de varias obras de
-teatro en el Teatro Alameda de Málaga.
+<main>
+  <h1 id="Subtitulo">Nuestra App</h1>
+  <div class="container">
+    <img src="./img/app2.jpeg" alt="App" class="captura">
+    <div class="info info1">
+      <h1>Hola</h1>
+    </div>
+    <div class="info info2">
+      <h1>Hola2</h1>
+    </div>
+    <div class="info info3">
+      <h1>Hola3</h1>
+    </div>
+    <div class="info info3">
+      <h1>Hola4</h1>
+    </div>
+  </div>
+</main>

@@ -178,7 +178,7 @@ nav {
 
 .box-apps {
   width: 90%;
-  justify-content: space-around;
+  justify-content: space-between;
   display: flex;
   margin: 20px auto;
   padding-bottom: 15px;
@@ -187,6 +187,10 @@ nav {
 
 .app {
   width: 30%;
+}
+
+.app h4 {
+  text-align: center;
 }
 
 .boton-descarga {

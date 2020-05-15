@@ -80,6 +80,10 @@ p {
   font-family: "Lato", sans-serif;
 }
 
+#Subtitulo {
+  text-align: center;
+}
+
 /* Header */
 .Titulo {
   font-family: "Jost", sans-serif;
@@ -138,7 +142,7 @@ nav a:hover {
 }
 
 .promotor-imagen {
-  width: 100%;
+  width: 130px;
   padding: 0;
   margin: 0 0 10px 0;
   border-radius: 50px;
@@ -228,5 +232,9 @@ nav a:hover {
     margin: 10px 0;
     width: 100%;
     text-align: center;
+  }
+
+  .promotor-imagen {
+    width: 80%;
   }
 }
