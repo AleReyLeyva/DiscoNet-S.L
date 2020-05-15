@@ -59,7 +59,7 @@ h1 {
 
 h2 {
   font-size: 1.65rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h3 {
@@ -128,7 +128,7 @@ nav {
 /*  Presentacion */
 .presentacion {
   width: 100%;
-  padding: 25px;
+  padding: 40px;
   text-align: center;
   background: linear-gradient(to right, rgb(55, 59, 68), rgb(66, 134, 244));
   border-bottom: 6px solid #00a3cc;
@@ -182,7 +182,7 @@ nav {
   display: flex;
   margin: 20px auto;
   padding-bottom: 15px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .app {
@@ -346,5 +346,15 @@ nav {
 
   .container-video video {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .app h2 {
+    font-size: 1.75rem;
+  }
+
+  .app h3 {
+    font-size: 1.25rem;
   }
 }
