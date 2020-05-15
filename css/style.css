@@ -128,7 +128,7 @@ nav {
 /*  Presentacion */
 .presentacion {
   width: 100%;
-  padding: 40px;
+  padding: 17px 0 37px 0;
   text-align: center;
   background: linear-gradient(to right, rgb(55, 59, 68), rgb(66, 134, 244));
   border-bottom: 6px solid #00a3cc;
