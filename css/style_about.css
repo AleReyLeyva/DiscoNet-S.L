@@ -159,7 +159,7 @@ nav a:hover {
 .promotor-imagen {
   width: 130px;
   padding: 0;
-  margin: 0 0 10px 0;
+  margin-bottom: 10px;
   border-radius: 50px;
 }
 
@@ -167,6 +167,10 @@ nav a:hover {
   width: 100%;
   margin: 0;
   text-align: center;
+}
+
+#cont-ale {
+  padding-bottom: 16px;
 }
 
 .promotor-descripcion {
@@ -177,7 +181,7 @@ nav a:hover {
 }
 
 .promotor-descripcion p {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 .promotor-link {
