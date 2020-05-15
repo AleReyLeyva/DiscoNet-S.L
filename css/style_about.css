@@ -30,6 +30,10 @@ main {
   width: 100%;
 }
 
+#Organigrama {
+  text-align: center;
+}
+
 .container-header {
   width: 80%;
   align-items: center;
