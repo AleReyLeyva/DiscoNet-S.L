@@ -131,6 +131,11 @@ nav a:hover {
   width: 23.5%;
 }
 
+.promotor:hover {
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+
 .promotor-nombre {
   font-family: 'Fjalla One', sans-serif;
   text-align: center;
@@ -139,6 +144,12 @@ nav a:hover {
   padding: 0;
   margin: 10px 0;
   width: 100%;
+  transition: 1s;
+}
+
+.promotor-nombre:hover {
+  transition: 0.5s;
+  color: white;
 }
 
 .promotor-imagen {
@@ -149,8 +160,7 @@ nav a:hover {
 }
 
 .promotor-contenido {
-  color:
-    width: 100%;
+  width: 100%;
   margin: 0;
   text-align: center;
 }
@@ -174,10 +184,10 @@ nav a:hover {
   font-size: 1rem;
   text-decoration: underline;
   text-transform: uppercase;
-  transition: 1s;
 }
 
 .promotor-link:hover {
+  transition: 1s;
   color: #000000;
 }
 
