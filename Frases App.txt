@@ -11,4 +11,7 @@
     En el caso de querer eliminar la publicidad de terceros, estará disponible una versión de pago
     con la que obtendrás descuentos, ventajas en los sorteos y muchas mas ventajas
 
-4.
+4. La App más rápida
+    Simplemente con acceder a la BIO de tu discoteca favorita podrás contactar con el primer rrpp disponible,
+    consultar la existencia de listas de entrada común, reservados o contactar con la misma para cualquier
+    tipo de cuestión
