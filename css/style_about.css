@@ -279,7 +279,7 @@ nav a:hover {
     margin-bottom: 15px;
   }
 
-  .promotor-descripcion {
-    font-size: 1.5rem;
+  .promotor-descripcion p {
+    font-size: 1.28rem;
   }
 }
