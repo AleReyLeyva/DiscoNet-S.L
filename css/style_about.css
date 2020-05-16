@@ -137,7 +137,6 @@ nav a:hover {
   display: inline-block;
   border: 5px solid rgb(0, 96, 206);
   border-radius: 6px;
-  height: 790px;
   padding: 30px;
   width: 23.5%;
 }
@@ -164,9 +163,10 @@ nav a:hover {
 }
 
 .promotor-imagen {
-  width: 130px;
+  width: 60%;
   padding: 0;
-  margin-bottom: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
   border-radius: 50px;
 }
 
@@ -213,7 +213,7 @@ nav a:hover {
 }
 
 /* Media Query */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   h1 {
     font-size: 2.20rem;
     text-align: center;
@@ -225,6 +225,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 50px;
   }
 
   .Titulo {
@@ -246,7 +247,15 @@ nav a:hover {
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 87%;
+    width: 85%;
+  }
+
+  .promotor-nombre {
+    font-size: 2.45rem;
+  }
+
+  .promotor-descripcion p {
+    font-size: 1.4rem;
   }
 
   .promotor {
@@ -257,5 +266,20 @@ nav a:hover {
 
   .promotor-imagen {
     width: 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .promotor-imagen {
+    width: 70%;
+  }
+
+  .promotor-nombre {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  .promotor-descripcion {
+    font-size: 1.5rem;
   }
 }
