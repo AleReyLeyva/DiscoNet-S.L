@@ -268,18 +268,4 @@ nav a:hover {
     width: 80%;
   }
 }
-
-@media screen and (min-width: 1450px) {
-  .promotor-imagen {
-    width: 70%;
-  }
-
-  .promotor-nombre {
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-  }
-
-  .promotor-descripcion p {
-    font-size: 1.28rem;
-  }
 }
