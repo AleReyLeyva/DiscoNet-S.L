@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Lato&family=Montserrat&family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 /* Cuerpo de la web */
 * {
@@ -142,7 +143,7 @@ main {
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 1.5fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .captura {
@@ -150,7 +151,7 @@ main {
   grid-row-start: 1;
   grid-row-end: 3;
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .info {
@@ -177,6 +178,78 @@ main {
 #info4 {
   grid-row: 2;
   grid-column: 3;
+}
+
+#descarga {
+  grid-row: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+
+#descarga h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.boton-descarga {
+  font-family: "Barlow", sans-serif;
+  width: 50%;
+  display: flex;
+  text-align: center;
+  margin: 30px auto;
+  align-items: center;
+  border: 2px solid #000000;
+  background-image: linear-gradient(to bottom, #8241f9, #4e277b);
+  border-color: #150a27;
+  border-color: rgb(21, 10, 39);
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px 0;
+  transition: 1.4s;
+  grid-row: 3;
+}
+
+.boton-descarga:hover {
+  background: #581b98;
+}
+
+#disponible {
+  margin-left: 5px;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  width: 50%;
+}
+
+.botones {
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  width: 100%;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+}
+
+#android {
+  width: 50%;
+  margin-left: 30px;
+}
+
+#apple {
+  width: 50%;
+}
+
+#android img {
+  width: 67%;
+}
+
+#apple img {
+  width: 57%;
 }
 
 @media screen and (max-width: 1000px) {
