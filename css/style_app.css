@@ -81,13 +81,17 @@ p {
 }
 
 .info h2 {
+  margin: 0 0 8px 0;
+  text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 1.9rem,
 }
 
 .info h4 {
+  margin-bottom: 20px;
+  text-align: justify;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
 
 /* Header */
@@ -125,10 +129,11 @@ main {
 }
 
 .container {
-  width: 85%;
+  width: 90%;
   margin: 25px auto;
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  align-items: flex-start;
+  grid-template-columns: 1fr 1.5fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
@@ -136,13 +141,14 @@ main {
   grid-column: 2;
   grid-row-start: 1;
   grid-row-end: 3;
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
 .info {
-  text-align: center;
-  margin: auto;
+  width: 100%;
+  margin: 0;
+  justify-content: flex-start;
 }
 
 #info1 {
