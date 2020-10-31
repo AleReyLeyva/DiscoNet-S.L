@@ -1,51 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DiscoNet | Nuestra App</title>
-    <meta name="description" content="Pagina Web de DiscoNet S.L." />
-    <meta
-      name="keywords"
-      content="DiscoNet, Discotecas, Aplicaciones, Fiesta, Informacion"
-    />
-    <meta name="author" content="Alejandro Rey Leyva" />
-    <link rel="icon" href="./img/DiscoNetAppIco.ico" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <div class="title"><h1>Nuestra App</h1></div>
-        <nav>
-          <ul class="nav-links">
-            <li><a href="index.html">Inicio</a></li>
-          </ul>
-        </nav>
-      </header>
 
-      <main>
-        
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DiscoNet | Nuestra App</title>
+  <meta name="description" content="Pagina Web de DiscoNet S.L." />
+  <meta name="keywords" content="DiscoNet, Discotecas, Aplicaciones, Fiesta, Informacion" />
+  <meta name="author" content="Alejandro Rey Leyva" />
+  <link rel="icon" href="./img/DiscoNetAppIco.ico" />
+  <link rel="stylesheet" href="./css/style_app.css" />
 
-      </main>
+</head>
 
-      <footer>
-          DiscoNet S.L. <br />
-          Web desarrollada por estudiantes de Matemáticas + Ingeniería
-          Informática UMA
-      </footer>
+<body>
+  <header>
+    <div class="container-header">
+      <h1 class="Titulo">
+        DiscoNet
+      </h1>
+      <nav>
+        <a class="nav-link" href="index.html">Inicio</a>
+      </nav>
     </div>
-  </body>
+  </header>
+  <main>
+    <h1 id="Subtitulo">Nuestra App</h1>
+    <div class="container">
+      <img src="./img/movilsinmano.png" alt="App" class="captura">
+      <div class="info" id="info1">
+        <h2>¿Salen hoy mis amigos de fiesta?</h2>
+        <h4>Con nuestra innovadora <b><i>Feed</i></b> sabrás quiénes de tus amigos salen de fiesta, pudiendo quedar a una determinada hora o unirte a ellos en una lista de entrada común.</h4>
+      </div>
+      <hr>
+      <div class="info" id="info2">
+        <h2>Totalmente gratis</h2>
+        <h4> DiscoNet es <b>totalmente gratuita</b> y de fácil descarga a través de la App Store y la Play Store.
+          Si quisieras eliminar la publicidad de terceros, tendrás disponible una versión de pago
+          con la que obtendrás también descuentos, ventajas en los sorteos y muchas mas ventajas</h4>
+      </div>
+      <hr>
+      <div class="info" id="info3">
+        <h2>¿Novedades en mi discoteca favorita?</h2>
+        <h4>Con un simple vistazo a la <b><i>Feed</i></b> de DiscoNet te informarás acerca de grandes descuentos,
+          sorteos de entradas, asistencia de DJs famosos a tu discoteca favorita y fiestas patrocinadas o temáticas</h4>
+      </div>
+      <hr>
+      <div class="info" id="info4">
+        <h2>La App más rápida</h2>
+        <h4>Simplemente con acceder a la <b><i>BIO</i></b> de tu discoteca favorita podrás contactar con el primer <i>RR.PP.</i> disponible,
+          consultar la existencia de listas de entrada común, reservados o contactar con la misma para cualquier
+          tipo de cuestión</h4>
+      </div>
+      <div id="descarga">
+        <h2>¿A qué esperas? <br> Descarga ya</h2>
+        <div class="boton-descarga">
+          <ul class=botones>
+            <li><a class="boton" id="android" href="https://play.google.com/store?hl=es_419"><img src="./img/Android.png" alt="Android" /></a></li>
+            <li><a class="boton" id="apple" href="https://www.apple.com/es/ios/app-store/"><img src="./img/Apple.png" alt="Apple" /></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <h4>DiscoNet S.L. <br />
+      Web desarrollada por estudiantes de Matemáticas + Ingeniería
+      Informática UMA
+    </h4>
+  </footer>
+</body>
+
 </html>
